@@ -115,9 +115,10 @@ Open `kp_prediction_notebook.ipynb` in Jupyter and run all cells. The data file 
 
 ## Authors
 
-**Prasad Shimpi** — MS Applied Data Science, Syracuse University  
-**Tanay Pratap Singh** — MS Applied Data Science, Syracuse University  
 **Atharva Bhushan Karekar** — MS Applied Data Science, Syracuse University  
 **Nikita Sharma** — MS Applied Data Science, Syracuse University
+**Prasad Shimpi** — MS Applied Data Science, Syracuse University  
+**Tanay Pratap Singh** — MS Applied Data Science, Syracuse University
+
 
 [LinkedIn](https://linkedin.com/in/prasadshimpi) | [GitHub](https://github.com/prasad11s)
