@@ -1,0 +1,62 @@
+================================================================================
+MULTI-HORIZON KP PREDICTION - FINAL RESULTS REPORT
+================================================================================
+
+PROJECT OVERVIEW:
+--------------------------------------------------------------------------------
+Date: 2025-12-12 17:26:37
+Dataset: NASA OMNI2 (2013-2024)
+Total records: 104,272 hours
+Features: 15
+Model: 2-layer LSTM with 129,508 parameters
+
+TEST SET PERFORMANCE:
+--------------------------------------------------------------------------------
+
+1-hour ahead:
+  RMSE: 0.738 Kp units
+  MAE:  0.476 Kp units
+  R²:   0.690
+  Improvement over baseline: +44.9%
+
+3-hour ahead:
+  RMSE: 0.910 Kp units
+  MAE:  0.655 Kp units
+  R²:   0.528
+  Improvement over baseline: +32.1%
+
+6-hour ahead:
+  RMSE: 1.073 Kp units
+  MAE:  0.793 Kp units
+  R²:   0.343
+  Improvement over baseline: +19.9%
+
+12-hour ahead:
+  RMSE: 1.207 Kp units
+  MAE:  0.906 Kp units
+  R²:   0.170
+  Improvement over baseline: +9.9%
+
+
+STORM DETECTION (Kp >= 5):
+--------------------------------------------------------------------------------
+
+1-hour ahead:
+  Precision: 0.545
+  Recall:    0.561
+  F1 Score:  0.553
+
+3-hour ahead:
+  Precision: 0.466
+  Recall:    0.282
+  F1 Score:  0.352
+
+6-hour ahead:
+  Precision: 0.000
+  Recall:    0.000
+  F1 Score:  0.000
+
+12-hour ahead:
+  Precision: 0.000
+  Recall:    0.000
+  F1 Score:  0.000
