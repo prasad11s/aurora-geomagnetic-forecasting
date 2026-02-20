@@ -2,7 +2,7 @@
 
 Predicting geomagnetic storm intensity (Kp index) at 1, 3, 6, and 12-hour horizons simultaneously using a single LSTM neural network trained on NASA OMNI2 solar wind data. Achieves **48% RMSE improvement** over baseline models for 1-hour forecasting.
 
-![Project Poster](aurora poster_compressed.png)
+![Project Poster](aurora%20poster_compressed.png)
 
 ---
 
